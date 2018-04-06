@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class EndGameActivity extends AppCompatActivity {
 
@@ -32,5 +33,7 @@ public class EndGameActivity extends AppCompatActivity {
             editTextPlayerName.setText(userName);
 
         }
+
+        Toast.makeText(this, "Para jogar novamente basta apertar o botão de voltar!", Toast.LENGTH_LONG).show();
     }
 }
