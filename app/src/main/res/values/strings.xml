@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="game_name">QuizzApp</string>
+    <string name="welcome_msg">Bem-vindo, insira seu nome para jogar:</string>
+    <string name="play_btn_msg">Jogar!</string>
+    <string name="player_name_placeholder">Nome</string>
+</resources>
