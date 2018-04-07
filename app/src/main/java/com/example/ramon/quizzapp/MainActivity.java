@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     
     private EditText playerName;
     private Button playBtn;
+    private Button aboutBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
         
         playBtn = findViewById(R.id.button_play);
         playerName = findViewById(R.id.editText_playerName);
+        aboutBtn = findViewById(R.id.button_sobre);
+
+        aboutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this,AboutActivity.class);
+                startActivity(i);
+            }
+        });
 
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override

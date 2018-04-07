@@ -34,6 +34,7 @@ public class EndGameActivity extends AppCompatActivity {
 
         }
 
-        Toast.makeText(this, "Para jogar novamente basta apertar o botão de voltar!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Para jogar novamente basta apertar o botão de voltar!", Toast.LENGTH_LONG
+        ).show();
     }
 }
